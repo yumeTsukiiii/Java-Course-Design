@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.effect.DropShadow?>
+<HBox id="main" stylesheets="@root.css"
+      xmlns="http://javafx.com/javafx/8.0.121"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.yumetsuki.main.MainController" >
+    <VBox id="list_view" alignment="TOP_CENTER" stylesheets="@list_view.css"
+                style="-fx-background-color: #ffffff" HBox.hgrow="ALWAYS">
+            <effect>
+                <DropShadow offsetX="2.0" offsetY="2.0" color="#8a8a8a"/>
+            </effect>
+        <BorderPane>
+            <padding>
+                <Insets left="16" top="16" bottom="16"/>
+            </padding>
+            <left>
+                <Label text="请登录" textAlignment="LEFT" >
+                    <graphic>
+                        <ImageView fitHeight="48" fitWidth="48">
+                            <Image url="/com/yumetsuki/base/icon/people_fill.png"/>
+                        </ImageView>
+                    </graphic>
+                </Label>
+            </left>
+        </BorderPane>
+        <Separator style="-fx-padding: 8px 8px"/>
+        <Button id="mPublicBusinessBtn"
+                fx:id="mPublicBusinessBtn" onAction="#onPublicBusinessBtnClick"
+                text="公共业务" styleClass="list-button" alignment="CENTER_LEFT">
+            <graphic>
+                <ImageView fitHeight="12" fitWidth="15">
+                    <Image url="/com/yumetsuki/base/icon/arrow_down.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <VBox fx:id="list_one" id="list_one"/>
+        <Button id="mMedicalBaseInformationBtn"
+                fx:id="mMedicalBaseInformationBtn" onAction="#onMedicalBaseInfoBtnClick"
+                text="医疗基本信息" styleClass="list-button" alignment="CENTER_LEFT">
+            <graphic>
+                <ImageView fitHeight="12" fitWidth="15">
+                    <Image url="/com/yumetsuki/base/icon/arrow_down.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <VBox fx:id="list_two" id="list_two"/>
+        <Button id="mMedicalInformationBtn"
+                fx:id="mMedicalInformationBtn" onAction="#onMedicalInfoBtnClick"
+                text="诊疗信息" styleClass="list-button" alignment="CENTER_LEFT">
+            <graphic>
+                <ImageView fitHeight="12" fitWidth="15">
+                    <Image url="/com/yumetsuki/base/icon/arrow_down.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <VBox fx:id="list_three" id="list_three"/>
+        <Button id="mReimburseBtn"
+                fx:id="mReimburseBtn" onAction="#onReimburseBtnClick"
+                text="医疗报销" styleClass="list-button" alignment="CENTER_LEFT">
+            <graphic>
+                <ImageView fitHeight="12" fitWidth="15">
+                    <Image url="/com/yumetsuki/base/icon/arrow_down.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <VBox fx:id="list_four" id="list_four"/>
+        <Button id="mSystemInfoBtn"
+                fx:id="mSystemInfoBtn"
+                text="关于系统" styleClass="list-button" alignment="CENTER_LEFT">
+            <graphic>
+                <ImageView fitHeight="24" fitWidth="24">
+                    <Image url="/com/yumetsuki/base/icon/warning-circle.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+        <Button id="mSystemExitBtn"
+                fx:id="mSystemExitBtn"
+                text="退出" styleClass="list-button" alignment="CENTER_LEFT" onAction="#onExitBtnClick">
+            <graphic>
+                <ImageView fitHeight="24" fitWidth="24">
+                    <Image url="/com/yumetsuki/base/icon/poweroff.png"/>
+                </ImageView>
+            </graphic>
+        </Button>
+    </VBox>
+    <BorderPane fx:id="mMDTable">
+        <top>
+            <HBox id="menu_bar" alignment="CENTER_LEFT" HBox.hgrow="ALWAYS" >
+                <effect>
+                    <DropShadow offsetX="1.0" offsetY="1.0" color="#9a9a9a"/>
+                </effect>
+                <padding>
+                    <Insets left="16" />
+                </padding>
+                <Button id="mTitleIcon">
+                    <graphic>
+                        <ImageView id="menu_icon" fitHeight="24" fitWidth="24">
+                            <Image url="/com/yumetsuki/base/icon/menu.png" />
+                        </ImageView>
+                    </graphic>
+                </Button>
+                <Label id="title" text="医保报销系统" textFill="white" />
+            </HBox>
+        </top>
+    </BorderPane>
+</HBox>

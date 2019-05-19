@@ -1,0 +1,12 @@
+.button-item{
+    -fx-padding: 16px;
+    -fx-background-color: white;
+    -fx-font-size: 12px;
+    -fx-max-width: 256px;
+    -fx-pref-width: 256px;
+    -fx-min-width: 256px;
+}
+
+.button-item:hover{
+    -fx-background-color: #e0e0e0;
+}

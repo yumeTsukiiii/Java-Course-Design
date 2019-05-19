@@ -1,0 +1,70 @@
+.text-field{
+    -fx-background-color: #ffffff00;
+}
+
+.date-picker{
+    -fx-background-color: #ffffff00;
+    -fx-border-color: #9a9a9a;
+    -fx-font-size: 15px;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+.date-picker-show{
+    -fx-background-color: #ffffff00;
+    -fx-border-color: dodgerblue;
+    -fx-font-size: 15px;
+    -fx-border-width: 0px 0px 1px 0px;
+}
+
+
+.cell{
+    -fx-background-color: #ffffff;
+}
+
+.cell:selected{
+    -fx-background-color: dodgerblue;
+}
+
+.cell:focused{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: dodgerblue;
+}
+
+.cell:hover{
+    -fx-background-color: dodgerblue;
+}
+
+.combo-box{
+    -fx-background-color: #ffffff;
+}
+
+.button{
+    -fx-border-color: #9a9a9a;
+}
+
+.button:focused{
+    -fx-background-color: #9a9a9a00;
+}
+
+.button:hover{
+    -fx-background-color: #ffffff55;
+}
+
+.label{
+    -fx-font-size: 15px;
+    -fx-padding: 8px;
+}
+
+.arrow-button{
+    -fx-background-color: #ffffff00;
+}
+
+.arrow-button:hover{
+    -fx-background-color: #9a9a9a33;
+}
+
+.arrow-button:selected{
+    -fx-background-color: #9a9a9a33;
+}
+
+

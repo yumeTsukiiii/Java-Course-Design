@@ -1,0 +1,55 @@
+#title{
+    -fx-background-color: dodgerblue;
+    -fx-padding: 16px;
+    -fx-font-size: 20px;
+}
+
+#list_view{
+    -fx-max-width: 256px;
+    -fx-pref-width: 256px;
+    -fx-min-width: 256px;
+}
+
+#list_view_title{
+    -fx-max-height: 192px;
+    -fx-pref-height: 192px;
+    -fx-min-height: 192px;
+}
+
+#menu_bar{
+    -fx-background-color: dodgerblue;
+    -fx-min-width: 768px;
+}
+
+#mTitleIcon{
+    -fx-max-width: 48px;
+    -fx-pref-width: 48px;
+    -fx-min-width: 48px;
+    -fx-max-height: 48px;
+    -fx-pref-height: 48px;
+    -fx-min-height: 48px;
+    -fx-background-color: dodgerblue;
+    -fx-background-radius: 50%;
+}
+
+#mTitleIcon:hover{
+    -fx-background-color: #FFFFFF22;
+}
+
+.md-table{
+    -fx-max-width: 672px;
+    -fx-max-height: 256px;
+    -fx-min-width: 672px;
+    -fx-min-height: 256px;
+    -fx-pref-width: 672px;
+    -fx-pref-height: 256px;
+}
+
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: dodgerblue;
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+}
+
+

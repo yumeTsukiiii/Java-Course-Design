@@ -1,0 +1,23 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="MedicialClass">
+    <output-path>$PROJECT_DIR$/out/artifacts/MedicialClass</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="com.yumetsuki.main.Main" />
+        <option name="description" value="" />
+        <option name="height" value="768" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="医疗报销系统" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="1024" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="MedicialClass.jar">
+        <element id="module-output" name="MedicialClass" />
+      </element>
+    </root>
+  </artifact>
+</component>

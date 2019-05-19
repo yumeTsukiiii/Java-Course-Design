@@ -1,0 +1,18 @@
+.label{
+    -fx-font-size: 46px;
+    -fx-padding: 16px;
+}
+
+.text-field{
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-font-size: 17px;
+    -fx-border-color: #9a9a9a33;
+    -fx-background-color: white;
+}
+
+.jfx-button {
+    -jfx-button-type: RAISED;
+    -fx-background-color: white;
+    -fx-font-size: 15px;
+}

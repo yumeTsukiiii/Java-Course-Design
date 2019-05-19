@@ -1,0 +1,41 @@
+.titleLabel{
+    -fx-text-fill: #9a9a9a;
+}
+
+.menu-button{
+    -fx-background-color: #FFFFFF00;
+    -fx-font-size: 15px;
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: #9a9a9a;
+    -fx-min-width: 150px;
+}
+
+.menu-button:focused{
+    -fx-border-color: dodgerblue;
+}
+
+.menu-item{
+    -fx-text-fill: #000000;
+    -fx-background-color: #ffffff;
+}
+
+.menu-item:hover{
+    -fx-background-color: dodgerblue;
+}
+
+.menu-item:focused{
+    -fx-background-color: #9a9a9a99;
+}
+
+.menu-item:hover{
+
+    -fx-text-fill: #000000;
+    -fx-background-color: #9a9a9a99;
+}
+
+
+
+
+
+
+

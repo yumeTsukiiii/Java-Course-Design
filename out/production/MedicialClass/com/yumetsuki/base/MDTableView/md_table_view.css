@@ -1,0 +1,39 @@
+.table{
+    -fx-background-color: #FFFFFF;
+    -fx-min-width: 669px;
+    -fx-min-height: 253px;
+}
+
+.scroll-pane{
+    -fx-background-color: #FFFFFF;
+}
+
+.row-item{
+    -fx-padding: 8px 24px 8px 8px;
+    -fx-font-size: 14px;
+    -fx-text-fill: #9a9a9a;
+}
+
+.column-item{
+    -fx-padding: 8px 24px 8px 8px;
+    -fx-font-size: 12px;
+}
+
+.button{
+    -fx-background-color: #FFFFFF;
+}
+
+.button:hover{
+    -fx-background-color: #9a9a9a33;
+}
+
+.thumb{
+    -fx-background-color: #9a9a9a66;
+}
+
+.thumb:pressed{
+    -fx-background-color: #9a9a9a44;
+}
+.track{
+    -fx-background-color: #FFFFFF;
+}
